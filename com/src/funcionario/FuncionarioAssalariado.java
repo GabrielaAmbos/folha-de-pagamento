@@ -1,3 +1,5 @@
+package funcionario;
+
 public class FuncionarioAssalariado extends Funcionario {
 
     private double salarioSemanal;

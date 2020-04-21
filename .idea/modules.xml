@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Funcionario/Funcionario.iml" filepath="$PROJECT_DIR$/Funcionario/Funcionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com/com.iml" filepath="$PROJECT_DIR$/com/com.iml" />
       <module fileurl="file://$PROJECT_DIR$/folha-de-pagamento.iml" filepath="$PROJECT_DIR$/folha-de-pagamento.iml" />
     </modules>
   </component>

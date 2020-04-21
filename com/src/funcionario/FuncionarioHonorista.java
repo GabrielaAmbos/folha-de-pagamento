@@ -1,3 +1,7 @@
+package funcionario;
+
+import funcionario.Funcionario;
+
 public class FuncionarioHonorista extends Funcionario {
     private double salarioPorHora;
 

@@ -1,3 +1,7 @@
+package funcionario;
+
+import funcionario.FuncionarioComissionado;
+
 public class FuncionarioComissionadoBaseSalario extends FuncionarioComissionado {
 
     private double salarioBase;
