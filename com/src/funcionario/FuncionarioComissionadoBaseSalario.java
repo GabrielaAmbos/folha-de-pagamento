@@ -15,7 +15,4 @@ public class FuncionarioComissionadoBaseSalario extends FuncionarioComissionado 
         return super.getRendimentos() + salarioBase;
     }
 
-    public String toString() {
-        return super.toString() + "\n Rendimentos: " + this.getRendimentos();
-    }
 }

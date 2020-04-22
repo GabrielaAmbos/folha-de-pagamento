@@ -9,11 +9,8 @@ public class FuncionarioAssalariado extends Funcionario {
         this.salarioSemanal = salarioSemanal;
     }
 
-    public void setSalarioSemanal(double salarioSemanal) {
-        this.salarioSemanal = salarioSemanal;
+    public double getRendimentos(){
+        return this.salarioSemanal;
     }
 
-    public String toString(){
-        return super.toString() + "\n Salario semanal: " + this.salarioSemanal;
-    }
 }

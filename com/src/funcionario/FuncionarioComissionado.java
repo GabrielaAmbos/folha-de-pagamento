@@ -14,8 +14,5 @@ public class FuncionarioComissionado extends Funcionario {
         return taxaDeComissao * vendasBrutas;
     }
 
-    public String toString() {
-        return super.toString() + "\n Rendimentos: " + this.getRendimentos();
-    }
 
 }

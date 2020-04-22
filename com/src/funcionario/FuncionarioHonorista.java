@@ -12,16 +12,12 @@ public class FuncionarioHonorista extends Funcionario {
         this.horasTrabalhadas = horasTrabalhadas;
     }
 
-    public double salario() {
+    public double getRendimentos() {
         if(horasTrabalhadas < 40) {
             return (horasTrabalhadas * salarioPorHora);
         } else {
             return 40 * (salarioPorHora + ((horasTrabalhadas - 40) * salarioPorHora * 1.5));
         }
-    }
-
-    public String toString(){
-        return super.toString() + " \n Salario: " + this.salario();
     }
 
 }
